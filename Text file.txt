@@ -1,0 +1,33 @@
+
+
+{
+    "user_name": "user1",
+    "email_id": "user1@email.com",
+    "password": "1234"
+}
+
+{
+    "user_name": "James_bond",
+    "first_name": "James",
+    "last_name": "Bond",
+    "email_id": "bond007@email.com",
+    "bio": "Bond, James Bond.",
+    "city": "London",
+    "profile_picture": "sample_image"
+}
+
+
+{
+    "email_id": "bond007@email.com",
+    "password": "bond@007"
+}
+
+
+select * from user_profile
+
+-- ALTER SEQUENCE user_post_id_seq RESTART WITH 1;
+
+-- SELECT pg_get_serial_sequence('user_post', 'id');
+
+-- SELECT pg_get_serial_sequence('users', 'id');
+
